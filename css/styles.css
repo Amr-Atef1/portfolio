@@ -767,6 +767,9 @@ img {
 .project {
   text-align: center;
 }
+.project__container{
+  overflow: hidden;
+}
 
 .project__bg {
   background-color: var(--first-color-second);
@@ -787,6 +790,8 @@ img {
 }
 
 .project__img {
+  position: relative;
+  top: 2px;
   width: 400px;
   justify-self: center;
 }
